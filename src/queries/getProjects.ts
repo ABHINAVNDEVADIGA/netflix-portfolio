@@ -8,7 +8,7 @@ export async function getProjects(): Promise<Project[]> {
         "An AI-powered volleyball analytics and referee system using computer vision to track players, ball movement, and match events, providing real-time insights.",
       techUsed: "Python, OpenCV, YOLOv8, PyTorch, Streamlit",
       image: {
-        url: "/project-smart-volleyball.png"
+        url: "/projects/smart-volleyball.png"
       },
       repoLink:
         "https://github.com/ABHINAVNDEVADIGA/SMARTVOLLEYBALL_ENHANCEMENT_OFGAME_USING_AI"
@@ -19,10 +19,25 @@ export async function getProjects(): Promise<Project[]> {
         "AI-based tool that analyzes source code and detects bugs, errors, and improvement suggestions to enhance code quality.",
       techUsed: "React, Node.js, JavaScript, AI",
       image: {
-        url: "/project-ai-code-reviewer.png"
+        url: "/projects/ai-code-reviewer.png"
       },
       repoLink:
-        "https://github.com/ABHINAVNDEVADIGA/AI-CODE-REVIEVER"
+        "https://github.com/ABHINAVNDEVADIGA/AI-CODE-REVIEVER",
+      liveLink:
+        "https://ai-code-reviewer1.netlify.app/"
+    },
+    {
+      title: "Netflix-portfolio",
+      description:
+        "A Netflix-inspired personal portfolio showcasing my projects and skills with a clean, responsive UI.",
+      techUsed: "React, CSS,HTML, JavaScript, CSS , JSX ,typescript",
+      image: {
+        url: "/projects/netflix-portfolio.png"
+      },
+      repoLink:
+        "https://github.com/ABHINAVNDEVADIGA/node-based-pipeline-editor",
+      liveLink:
+        "https://spectacular-frangollo-290cab.netlify.app/"
     },
     {
       title: "Mental Health Prediction (ML Mini Project)",
@@ -30,7 +45,7 @@ export async function getProjects(): Promise<Project[]> {
         "Machine learning project that predicts mental health outcomes using structured datasets with preprocessing, training, and evaluation.",
       techUsed: "Python, Pandas, Scikit-Learn, Jupyter Notebook",
       image: {
-        url: "/project-ml-mini.png"
+        url: "/projects/placeholder-image.png"
       },
       repoLink:
         "https://github.com/ABHINAVNDEVADIGA/ML-MINI-PROJECT"
@@ -41,7 +56,7 @@ export async function getProjects(): Promise<Project[]> {
         "A drag-and-drop pipeline editor with a React frontend and Python backend to design, validate, and manage processing pipelines.",
       techUsed: "React, FastAPI, Python, JavaScript, CSS",
       image: {
-        url: "/project-pipeline-editor.png"
+        url: "/projects/placeholder-image.png"
       },
       repoLink:
         "https://github.com/ABHINAVNDEVADIGA/node-based-pipeline-editor"

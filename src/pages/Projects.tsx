@@ -14,7 +14,6 @@ import { Project } from '../types';
 import { getProjects } from '../queries/getProjects';
 import { GrKubernetes } from "react-icons/gr";
 
-
 const techIcons: { [key: string]: JSX.Element } = {
   React: <FaReact />,
   "Node.js": <FaNodeJs />,
@@ -64,7 +63,6 @@ const Projects: React.FC = () => {
             key={index}
             className="project-card"
             style={{ '--delay': `${index * 0.1}s` } as React.CSSProperties}
-            onClick={() => window.open(project.repoLink, "_blank")}
           >
             <img
               src={project.image.url}
@@ -83,6 +81,30 @@ const Projects: React.FC = () => {
                   </span>
                 ))}
               </div>
+
+              {/* 🔗 Buttons */}
+              <div className="project-links">
+                <button
+                  className="project-btn github"
+                  onClick={() => window.open(project.repoLink, "_blank")}
+                >
+                  GitHub
+                </button>
+
+                {project.liveLink ? (
+                  <button
+                    className="project-btn live"
+                    onClick={() => window.open(project.liveLink, "_blank")}
+                  >
+                    Live Demo
+                  </button>
+                ) : (
+                  <button className="project-btn disabled" disabled>
+                    In progress – coming soon
+                  </button>
+                )}
+              </div>
+
             </div>
           </div>
         ))}

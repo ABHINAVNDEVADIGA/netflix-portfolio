@@ -31,7 +31,8 @@ export interface Project {
   description: string;
   techUsed: string;
   image: { url: string };
-  repoLink: string; 
+  repoLink: string;
+  liveLink?: string; // ✅ added (optional)
 }
 
 export interface Certification {
