@@ -24,7 +24,7 @@ export async function getProjects(): Promise<Project[]> {
       repoLink:
         "https://github.com/ABHINAVNDEVADIGA/AI-CODE-REVIEVER",
       liveLink:
-        "https://ai-code-reviewer1.netlify.app/"
+        "https://abhinavaicodereviewer.netlify.app/"
     },
     {
       title: "Netflix-portfolio",
@@ -37,7 +37,7 @@ export async function getProjects(): Promise<Project[]> {
       repoLink:
         "https://github.com/ABHINAVNDEVADIGA/node-based-pipeline-editor",
       liveLink:
-        "https://spectacular-frangollo-290cab.netlify.app/"
+        "https://abhinavportfolio1.netlify.app/"
     },
     {
       title: "Mental Health Prediction (ML Mini Project)",
