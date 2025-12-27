@@ -1,5 +1,5 @@
 # 🚀 Netflix-Inspired Portfolio — **Deployed Project**
-👉 **LIVE DEMO:** 🔥 **https://spectacular-frangollo-290cab.netlify.app/** 🔥  
+👉 **LIVE DEMO:** 🔥 **https://abhinavportfolio1.netlify.app/** 🔥  
 *(Click the link above to view the deployed project)*
 
 ---
