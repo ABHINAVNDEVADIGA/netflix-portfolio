@@ -60,6 +60,17 @@ export async function getProjects(): Promise<Project[]> {
       },
       repoLink:
         "https://github.com/ABHINAVNDEVADIGA/node-based-pipeline-editor"
+    },
+    {
+      title: "Gesture-Controlled Desktop Assistant",
+      description:
+        "A real-time, touchless desktop control system that lets users interact with their computer using only hand gestures captured from a webcam. Users can perform mouse actions (move, click, scroll), adjust system settings like volume and brightness, and control the desktop without touching a mouse or keyboard.",
+      techUsed: "React, FastAPI, Python, JavaScript, CSS",
+      image: {
+        url: "/projects/placeholder-image.png"
+      },
+      repoLink:
+        "https://github.com/ABHINAVNDEVADIGA/Gesture-Controlled-Desktop-Assistant"
     }
   ];
 }
