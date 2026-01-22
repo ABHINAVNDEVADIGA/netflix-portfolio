@@ -6,7 +6,7 @@ export async function getProfileBanner(): Promise<ProfileBanner> {
     linkedinLink: "https://www.linkedin.com/in/abhinav-n-devadiga-726699288",
     profileSummary:
       "Final year CSE student | Full Stack Developer | AI & ML Enthusiast",
-    resumeLink: { url: "/ABHINAV_RESUME.pdf" },
+    resumeLink: { url: "/Abhinav_N_Devadiga_Frontend_developer.pdf" },
     backgroundImage: { url: "/banner.jpg" }
   };
 }
